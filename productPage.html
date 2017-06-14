@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Details </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="shopping.css">
+ </head>
+ <body class="container-fluid orderBody" onload="display()">
+     
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="shopping.html">Home</a></li>
+      <li><a href="#">Dresses</a></li>
+      <li><a href="#">Bridal</a></li>
+      <li><a href="#"></a></li>
+
+    </ul>
+    <div class="navbar-form navbar" style="margin-left:67%;">        
+       <a href="order.html"><span class="glyphicon glyphicon-shopping-cart" id="cart"></span></a>
+
+        <span style="margin-left:5%"><a href="account.html">My Account</a></span>
+      <span class="form-group"  style="margin-left:5%">
+        <input type="text" class="form-control" placeholder="Search">
+      </span>
+      <button type="submit" class="glyphicon glyphicon-search"></button>
+    </div>
+  </div>
+</nav>
+     
+ <div class="row page">
+     <div class="col-lg-4"><img id="picture1" src=""></div>
+     <div class="col-lg-1"></div>
+     <div class="col-lg-6 section">
+         <p class="content" id="description1"></p>
+         <p class="content" id="shipping1"></p>
+         <p class="content" id="price1"></p>
+         <p class="content" id="availability1"></p>
+         <p class="content" id="no_of_items1"></p>
+         <button class="btn btn-success" style="margin-top:5%;" onclick="payment()">Order</button>
+     </div>
+ </div>
+         <script src="shop.js"></script>
+
+    </body>
+</html>

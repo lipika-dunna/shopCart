@@ -1,0 +1,68 @@
+{
+    "allProducts": [
+        {
+            "product_description": "Always Stunning Convertible Maxi Dress is one amazing dress! Two, 83 long lengths of fabric sprout from an elastic waistband and wrap into dozens of possible bodice styles including halter, one-shoulder, cross-front, strapless, and more. Stretchy dark purple fabric has a satiny sheen, and a full length maxi skirt pairs perfectly with any choice you make up top.",
+            "shipping_details": "Charges for shipping: $20",
+            "price": "$304.99",
+            "image_path": "images/img5x6d.jpg",
+            "stock_availability": "true",
+            "no_of_items": "10"
+        },
+        {
+            "product_description": "The Mythical Kind of Love Sky Blue pretty dress is simply irresistible in every single way! Lightweight Georgette forms a fitted bodice with princess seams and an apron neckline supported by adjustable spaghetti straps that crisscross atop a sultry open back. A billowing maxi skirt cascades from an elasticized waistline into an elegant finale, perfect for any special occasion! Hidden back zipper with clasp.",
+            "shipping_details": "Charges for shipping: $25",
+            "price": "$449.00",
+            "image_path": "images/img5x6e.jpg",
+            "stock_availability": "true",
+            "no_of_items": "14"
+        },
+        {
+            "product_description": "Nothing makes a magical night like the Enchanted Evening White Lace Maxi Dress! Lovely crocheted lace overlays a nude bodice and plunging V-neckline, framed by long bell sleeves with pierced lace accents. Sweeping maxi skirt falls below a fitted waist. Hidden back zipper/clasp.",
+            "shipping_details": "Charges for shipping: $18",
+            "price": "$479.99",
+            "image_path": "images/img5x6f.jpg",
+            "stock_availability": "true",
+            "no_of_items": "14"
+        },
+        {
+            "product_description": "Soft and elegant, this satin a-line gown will set your wedding day look apart from the rest!Strapless a-line silhouette features side split.Side split with exposed skirt gives this gown a layered look.Fully lined with Back zip.", 
+            "shipping_details": "Charges for shipping: $20",
+            "price": "$350.00",
+            "image_path": "images/img7.jpg",
+            "stock_availability": "true",
+            "no_of_items": "10"
+        },
+        {
+            "product_description": "This jersey sheath wedding dress is the ideal option for a warm weather wedding that calls for a glamorous gown. Lightweight and breathable jersey ensures you'll stay cool, while the beaded halter neckline with a sweetheart outline adds a dose of shine.",
+            "shipping_details": "Charges for shipping: $15", 
+            "price": "$425.50",
+            "image_path": "images/img51.jpg",
+            "stock_availability": "true",
+            "no_of_items": "15"
+        },
+        {
+            "product_description": "This Truly Zac Posen satin gown brings drama to every event: Its signature, figure-flattering seaming perfectly hugs every curve before flaring out into a spectacular tulle mermaid skirt.",
+            "shipping_details": "Charges for shipping: $20",       
+            "price": "$319.99",
+            "image_path": "images/img56.jpg",
+            "stock_availability": "true",
+            "no_of_items": "12"
+        },
+        {
+            "product_description": "The sequin embellishment of this Wonder by Jenny Packham dress is dramatically concentrated at the illusion bodice and hips, before trailing off into faint lines atop the soft tulle skirt. Each dress is embellished by hand; no two are exactly alike.",
+            "shipping_details": "Charges for shipping: $20",
+            "price": "$399.99",
+            "image_path": "images/img8.jpg",
+            "stock_availability": "true",
+            "no_of_items": "15"
+        },
+	{
+            "product_description": "Our lace/mesh combination styles, like this long strapless bridesmaid dress with a lace bodice and mesh skirt, blend beautifully with both all-mesh and all-lace dresses. A side-slit adds drama to the floor-length look.",
+            "shipping_details": "Charges for shipping: $20",
+            "price": "$429.99",
+            "image_path": "images/img9.jpg",
+            "stock_availability": "true",
+            "no_of_items": "15"
+        }
+    ]
+}

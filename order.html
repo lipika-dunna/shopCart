@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Check out </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="shopping.css">
+    
+ </head>
+ <body class="container" id="orderBody">
+     <script src="shop.js"></script>
+     
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="shopping.html">Home</a></li>
+      <li><a href="#">Dresses</a></li>
+      <li><a href="#">Bridal</a></li>
+      <li><a href="#"></a></li>
+
+    </ul>
+    <div class="navbar-form navbar" style="margin-left:67%;">        
+       <a href="order.html"><span class="glyphicon glyphicon-shopping-cart" id="cart"></span></a>
+
+        <span style="margin-left:5%"><a href="account.html">My Account</a></span>
+      <span class="form-group"  style="margin-left:5%">
+        <input type="text" class="form-control" placeholder="Search">
+      </span>
+      <button type="submit" class="glyphicon glyphicon-search"></button>
+    </div>
+  </div>
+</nav>
+     
+<div style="margin-top:10%">
+  <ul id="checkoutsteps">
+      <li><a href="#">Shipping Address</a></li>
+      <li class="currentstep"><a>Billing Information</a></li>
+      <li class=""><a>Payment Information</a></li>
+      <li class="last"><a>Confirmation</a></li>
+</ul>
+
+    <h2>Shipping</h2>
+     <table class="form-group form-tbl">
+    <tr>
+          <th><label for="Full Name">Full Name :<em>*</em></label></th>        
+        <td><input class="form-control s" placeholder="First Name" type="text" id="fname"></td>
+        <td><input class="form-control s" placeholder="Last Name" type="text" id="lname"></td>
+      </tr>
+      <tr>
+        <th><label for="Address">Address:<em>*</em></label></th>
+        <td><input class="form-control s" placeholder="Address Line 1" id="address1"></td>
+        <td><input class="form-control s" placeholder="Address Line 2" id="address2"></td>
+      </tr>
+      <tr>
+        <th><label for="City">City :<em>*</em></label></th>
+        <td><input class="form-control s"  type="text" placeholder="City" id="city"></td>
+      </tr>
+      <tr>
+        <th><label for="State">State :<em>*</em></label></th>
+        <td><select class="form-control s" type="text" id="state">
+                <option>Select One</option>
+                <option>CA</option>
+                <option>NJ</option>
+            </select>
+        </td>
+      </tr>  
+      <tr>
+        <th><label for="ZipCode">ZipCode :<em>*</em></label></th>
+        <td><input class="form-control s"  type="number" placeholder="Zipcode" id="zipcode"></td>
+      </tr>
+      <tr>
+        <th><label for="Country">Country :<em>*</em></label></th>
+        <td><input  class="form-control s" type="text" placeholder="Country" id="country"></td>
+      </tr>
+      <tr>
+        <th><label for="Phone">Phone :<em>*</em></label></th>
+        <td><input  class="form-control s" type="number" placeholder="Phone" id="phone"></td>
+      </tr>
+      <tr>
+        <th><label for="Email">Email :<em>*</em></label></th>
+        <td><input class="form-control s"  type="email" placeholder="Email" id="email"></td>
+      </tr>
+    </table>
+     <a type="button" class="btn btn-success" style="margin-top:2%;margin-left:50%;" href="#section2">BILLING INFORMATION</a>
+     </div>
+     
+     <div id="section2" style="margin-top:10%;">
+  <h2>Billing Address</h2>
+  <table class="form-group form-tbl" cellspacing="0">
+    <tbody>
+      <tr>
+        <th>&nbsp;</th>
+        <td>
+          <input type="checkbox" name="populateinfo" value="1" onclick="billingInfo()" id="populateinfo" />
+          <label for="populateinfo">My billing information is the same as my shipping information</label>
+        </td>
+      </tr>
+      
+      <tr>
+        <th><label for="Address">Address<em>*</em></label></th>
+        <td><input class="form-control s" placeholder="Address Line 1" type="text" id="address3"></td>
+        <td><input class="form-control s" placeholder="Address Line 1" type="text" id="address4"></td>
+      </tr>
+      <tr>
+        <th><label for="City">City <em>*</em></label></th>
+        <td><input class="form-control s" type="text" placeholder="City" id="city1"></td>
+      </tr>
+      <tr>
+        <th><label for="State">State <em>*</em></label></th>
+        <td><select id="state1" class="form-control s">
+                <option>Select One</option>
+                <option>CA</option>
+                <option>NJ</option>
+            </select>
+        </td>
+      </tr>  
+      <tr>
+        <th><label for="ZipCode">ZipCode<em>*</em></label></th>
+        <td><input class="form-control s"  type="number" placeholder="Zipcode" id="zipcode1"></td>
+      </tr>
+      <tr>
+        <th><label for="Country">Country <em>*</em></label></th>
+        <td><input class="form-control s"  type="text" placeholder="Country" id="country1"></td>
+      </tr>
+      <tr>
+        <th><label for="Phone">Phone <em>*</em></label></th>
+        <td><input class="form-control s" type="number" placeholder="Phone" id="phone1"></td>
+      </tr>
+      <tr>
+        <th><label for="Email">Email <em>*</em></label></th>
+        <td><input class="form-control s" type="email" placeholder="Email" id="email1"></td>
+      </tr>
+    </tbody>
+  </table>
+         <a type="button" class="btn btn-success" style="margin-top:14%; margin-left:50%;" href="#section3">PAYMENT DETAILS</a>
+         </div ><div id="section3" style="margin-top:6%;">
+  <h2>Payment Information</h2>
+  <table class="form-tbl" cellspacing="0">
+    <tbody>
+      <tr>
+        <th><label for="Credit Card Type">Credit Card Type<em>*</em></label></th>
+        <td>
+            <img src="http://vignette1.wikia.nocookie.net/uncyclopedia/images/4/4b/Visa.png/revision/latest?cb=20071013130545"           width="35" style="margin-right:5px"/><input type=radio name="Credit Card Type">
+            <img src="http://zdnet3.cbsistatic.com/hub/i/r/2015/05/19/5c2ab7c6-019e-4ac5-aa31-bd6b8b1cdc6b/thumbnail/770x578/1cb9b5cf9113b87759da00c74ae91e84/mastercard.jpg" width="40" style="margin-right:5px"/><input type=radio name="Credit Card Type">
+            <img src="https://lendedu.com/wp-content/uploads/2016/03/discover-it-for-students-credit-card.jpg" width="35" style="margin-right:5px"/><input type=radio name="Credit Card Type">
+          </td>
+      </tr>
+      <tr>
+        <th><label for="Card Number">Card Number <em>*</em></label></th>
+        <td><input class="form-control s" type="number" placeholder="Card Number" id=""></td>
+      </tr>
+      <tr>
+        <th><label for="Expiration">Expiration <em>*</em></label></th>
+        <td><input class="form-control s" type="number" placeholder="MM" id="">
+                 <span> <input class="form-control s" type="number" placeholder="YYYY" id=""></span> </td>
+      </tr>
+      <tr>
+        <th><label for="Security Code">Security Code <em>*</em></label></th>
+          <td><input class="form-control s" type="number" placeholder="CVV" id=""><span><em>*</em>3 or 4 digit code from the back of your credit card</span></td>
+      </tr>
+      <tr>
+        <th></th>
+        
+      </tr>
+    </tbody>
+  </table>
+      <input type="submit" name="submit" value="Place Order" />
+     <div style="margin-top:35%;">
+    </div>
+     </div>
+     
+     <script>
+     $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});</script>
+</body>

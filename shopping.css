@@ -1,0 +1,89 @@
+/*#navBar{
+    font-size: 20px;
+    background-color: black;
+    border-radius: 15px;
+}
+#navBar a{
+    color:white;
+}
+#navBar a:hover{
+    background-color: grey;
+
+}*/
+
+.navbar navbar-inverse{
+    position: fixed;
+}
+#cart{
+    color:white;
+    width:2%;
+    height:2%
+    margin-right:6%;
+}
+#myCarousel{
+    margin-top:6%;
+}
+.carousel-inner > .item > image,
+.carousel-inner > .item > a > img{
+    width:70%;
+    margin: auto;
+}
+#row1{
+    margin:20px 0px;
+}
+footer{
+    font-size: 16px;
+    background-color: black;
+}
+footer a{
+    padding-top:5px;
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+footer a:hover{
+    background-color: skyblue;
+
+}
+#accBody{
+    background-color: #ffccd5;
+}
+.rol{
+    width:50%; 
+}
+.heading{
+    margin: 20% 0% 6% 0%;    
+}
+.s{
+    width:75%;
+}
+
+#checkoutsteps {list-style: none; margin: 0; padding: 0;}
+#checkoutsteps li {font-size: small; display: inline; color: #aaa; padding: 0 10px; border-right: 1px solid #999;}
+#checkoutsteps li.last {border-right: none;}
+table.form-tbl {width: 70%;}
+table.form-tbl td, table.form-tbl th {padding: 8px 2px;}
+table.form-tbl th {width: 150px;}
+table.form-tbl input[type="text"], table.form-tbl textarea {width: 75%;}
+
+/*product page*/
+.orderBody{
+}
+.page{
+    
+    margin-top:6%;
+}
+.section{
+    font-size: 25px;
+}
+.section p{
+    margin-top:8%;
+}
+#picture1,#picture2,#picture3,#picture4,#picture5,#picture6,#picture7,#picture8{
+    height:600px;
+    width:500px;
+    border:1px dotted black;
+}
+.buy{
+    
+}
